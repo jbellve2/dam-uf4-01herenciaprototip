@@ -96,12 +96,12 @@ Com a exemple d'alerta tindrem aquests 2:
 
 **Error**
 
-> ![Image text](https://gitlab.com/jbellve2/dam-uf4-01-herenciaprototip/-/raw/main/imatges/alertaError.png)
+> ![Image text](https://gitlab.com/jbellve2/dam-uf4-01herenciaprototip/-/raw/main/imatges/alertaError.png)
 
 
 **Warning**
 
-> ![Image text](https://gitlab.com/jbellve2/dam-uf4-01-herenciaprototip/-/raw/main/imatges/alertaWarning.png)
+> ![Image text](https://gitlab.com/jbellve2/dam-uf4-01herenciaprototip/-/raw/main/imatges/alertaWarning.png)
 
 
 
