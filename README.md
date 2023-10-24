@@ -57,12 +57,28 @@ public void guardaVehicleFitxer(String rutaFitxer){
 ```
 
 Aquest mètode ens permetrà recuperar qualsevol fitxer a una llista d'objectes.
-Per a que funcione li hem de passar la classe de l'objecte i automàticament retornarà ja formatada, una llista amb els objectes de la classe Class.
+Per a que funcione li hem de passar la ruta del fitxder i et retornarà una llista amb els objectes de la classe.
 
 Per exemple, si volem recuperar tots els vehicles Taxi, cridarem a la funció _retornaVehiclesEnLlista_ així:
 ```
-List<Taxi> llistaTaxis=(List<Taxi>) tx.retornaVehiclesEnLlista(tx.getRutaFitxer(),Taxi.class);
+List<Object> llistaTaxis=(List<Taxi>) tx.retornaVehiclesEnLlista(tx.getRutaFitxer());
 
+```
+
+A continuació, en la classe Taxi, haurem de 'convertir' la llista d'Objectes a llista de Taxis. Així:
+
+```
+  private List<Taxi> converteixALlistaTaxi(List<Object> Lobj) {
+        List<Taxi> LlistaTaxis = new ArrayList<Taxi>();
+
+        int i;
+        for (i = 0; i < Lobj.size(); i++) {
+            Taxi tx = (Taxi) Lobj.get(i);
+            LlistaTaxis.add(tx);
+        }
+
+        return LlistaTaxis;
+    }
 ```
 
 
