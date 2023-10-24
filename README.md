@@ -48,9 +48,9 @@ public void guardaVehicleFitxer(String rutaFitxer){
 
 **Per recuperar vehicles d'un fitxer: (Utilitzant la classe Fitxers f)**
 ```
- public <T> Object retornaVehiclesEnLlista(String arxiu,T Class) throws ClassNotFoundException {
+ public <List> Object retornaVehiclesEnLlista(String arxiu) throws ClassNotFoundException {
 
-        return f.retornaFitxerObjecteEnLlista(arxiu, Class);
+        return f.retornaFitxerObjecteEnLlista(arxiu);
 
     }
 
