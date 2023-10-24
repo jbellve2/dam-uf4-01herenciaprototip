@@ -15,7 +15,8 @@ La llibreria ha d'estar pujada al repositori mymavenrepo o al repositori de llib
 Aquest és el disseny de classes del programa:
 
 
-![Image text](https://gitlab.com/jbellve2/dam-uf4-01-herenciaprototip/-/raw/main/imatges/herenciaVehicles.png)
+![Image text](https://gitlab.com/jbellve2/dam-uf4-01herenciaprototip/-/raw/master/imatges/herenciaVehicles.png)
+
 
 
 
@@ -96,12 +97,12 @@ Com a exemple d'alerta tindrem aquests 2:
 
 **Error**
 
-> ![Image text](https://gitlab.com/jbellve2/dam-uf4-01herenciaprototip/-/blob/master/imatges/alertaError.png)
+> ![Image text](https://gitlab.com/jbellve2/dam-uf4-01herenciaprototip/-/raw/master/imatges/alertaError.png)
 
 
 **Warning**
 
-> ![Image text](https://gitlab.com/jbellve2/dam-uf4-01herenciaprototip/-/blob/master/imatges/alertaWarning.png)
+> ![Image text](https://gitlab.com/jbellve2/dam-uf4-01herenciaprototip/-/raw/master/imatges/alertaWarning.png)
 
 
 
@@ -110,7 +111,7 @@ Com a exemple d'alerta tindrem aquests 2:
 Com que us passo el prototip no tindreu cap problema. En aquest prototip teniu els formularis ja dissenyats, amb les icones i els mètodes associats als botons. Però fixeu-vos com heu de distribuïr els paquets, ja que en futurs projectes ho farem d'aquesta manera.
 
 
-> ![Image text](https://gitlab.com/jbellve2/dam-uf4-01herenciaprototip/-/blob/master/imatges/organitzPaquets.png)
+> ![Image text](https://gitlab.com/jbellve2/dam-uf4-01herenciaprototip/-/raw/master/imatges/organitzPaquets.png)
 
 
 **_Creeu també l'executable al finalitzar el programa!!_**
@@ -120,7 +121,7 @@ Com que us passo el prototip no tindreu cap problema. En aquest prototip teniu e
 
 **Principal**
 
-> ![Image text](https://gitlab.com/jbellve2/dam-uf4-01herenciaprototip/-/blob/master/imatges/vehiclesPrincipal.png)
+> ![Image text](https://gitlab.com/jbellve2/dam-uf4-01herenciaprototip/-/raw/master/imatges/vehiclesPrincipal.png)
 
 **Afegir Autobús**
 
@@ -131,4 +132,4 @@ Com que us passo el prototip no tindreu cap problema. En aquest prototip teniu e
 
 **Mostrar Autobús**
 
-> ![Image text](https://gitlab.com/jbellve2/dam-uf4-01herenciaprototip/-/blob/master/imatges/llistatAutobusos.png)
+> ![Image text](https://gitlab.com/jbellve2/dam-uf4-01herenciaprototip/-/raw/master/imatges/llistatAutobusos.png)
