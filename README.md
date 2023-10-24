@@ -124,8 +124,9 @@ Com que us passo el prototip no tindreu cap problema. En aquest prototip teniu e
 
 **Afegir Autobús**
 
-> ![Image text](https://gitlab.com/jbellve2/dam-uf4-01herenciaprototip/-/blob/master/imatges/AfegirAutobus.png)
+> ![Image text](https://gitlab.com/jbellve2/dam-uf4-01herenciaprototip/-/raw/master/imatges/AfegirAutobus.png)
 > 
+
 
 
 **Mostrar Autobús**
