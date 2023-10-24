@@ -93,7 +93,7 @@ Aquesta classe l'utilitzarem com a utils. Definirem 2 mètodes que ens facilitar
 
 La classe tindrà 2 possibles constructors:
 
-```
+```java
     public Alerta(String missatge) {
         this.missatge = missatge;
     }
