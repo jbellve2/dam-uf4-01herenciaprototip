@@ -47,7 +47,6 @@ public class Vehicle implements Serializable {
      * ja retorna fins i tot formatat a la classe que pertany
      *
      * @param arxiu ruta de l'arxiu
-     * @param Class classe de l'objecte a transformar
      * @return llista classe de l'objecte a transformar
      * @throws InterruptedException   excepció
      * @throws ClassNotFoundException excepció
@@ -55,7 +54,7 @@ public class Vehicle implements Serializable {
      * @throws IllegalAccessException excepció
      * @throws IOException            excepció
      */
-    public <T> Object retornaVehiclesEnLlista(String arxiu,T Class) throws ClassNotFoundException {
+    public List <Object> retornaVehiclesEnLlista(String arxiu) throws ClassNotFoundException {
 
         // ** //
 
