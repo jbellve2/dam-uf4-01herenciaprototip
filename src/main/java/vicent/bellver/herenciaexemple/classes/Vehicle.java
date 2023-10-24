@@ -3,6 +3,7 @@ package vicent.bellver.herenciaexemple.classes;
 
 import java.io.IOException;
 import java.io.Serializable;
+import java.util.List;
 import java.util.Random;
 
 public class Vehicle implements Serializable {
@@ -54,7 +55,7 @@ public class Vehicle implements Serializable {
      * @throws IllegalAccessException excepció
      * @throws IOException            excepció
      */
-    public List <Object> retornaVehiclesEnLlista(String arxiu) throws ClassNotFoundException {
+    public List<Object> retornaVehiclesEnLlista(String arxiu) throws ClassNotFoundException {
 
         // ** //
 
