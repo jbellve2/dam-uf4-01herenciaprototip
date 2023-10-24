@@ -27,7 +27,7 @@ Aquesta classe és la que utilitzarà la llibreria externa de Fitxers i tindrà 
 
 **Utilitzarem la classe Fitxer i definim el directori per les classes derivades**
 
-```
+```java
    protected static Fitxers f = new Fitxers();
    protected static String dir = ".data/";       // carpeta contenidora dels fitxers
 
@@ -35,7 +35,7 @@ Aquesta classe és la que utilitzarà la llibreria externa de Fitxers i tindrà 
 
 
 **Per guardar vehicles a fitxer:**
-```
+```java
 public void guardaVehicleFitxer(String rutaFitxer){ 
         if (!f.existeix(dir))
             f.creaDirectori(dir);       // creem la carpeta contenidora si no existeix
@@ -47,7 +47,7 @@ public void guardaVehicleFitxer(String rutaFitxer){
 
 
 **Per recuperar vehicles d'un fitxer: (Utilitzant la classe Fitxers f)**
-```
+```java
  public <List> Object retornaVehiclesEnLlista(String arxiu) throws ClassNotFoundException {
 
         return f.retornaFitxerObjecteEnLlista(arxiu);
@@ -60,14 +60,14 @@ Aquest mètode ens permetrà recuperar qualsevol fitxer a una llista d'objectes.
 Per a que funcione li hem de passar la ruta del fitxder i et retornarà una llista amb els objectes de la classe.
 
 Per exemple, si volem recuperar tots els vehicles Taxi, cridarem a la funció _retornaVehiclesEnLlista_ així:
-```
+```java
 List<Object> llistaTaxis=(List<Taxi>) tx.retornaVehiclesEnLlista(tx.getRutaFitxer());
 
 ```
 
 A continuació, en la classe Taxi, haurem de 'convertir' la llista d'Objectes a llista de Taxis. Així:
 
-```
+```java
   private List<Taxi> converteixALlistaTaxi(List<Object> Lobj) {
         List<Taxi> LlistaTaxis = new ArrayList<Taxi>();
 
