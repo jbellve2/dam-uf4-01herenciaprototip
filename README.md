@@ -8,7 +8,7 @@ A partir d'aquest prototip amb JavaFX, crea les classes necessàries pel funcion
 
 El programa permetrà visualitzar i guardar dades Vehicles a fitxers binaris. Els vehicles que hi hauran seran Taxi i Autobús.
 
-Inclourà una llibreria externa Fitxers 5.0 (el codi el teniu ací: https://www.ies-eugeni.cat/mod/resource/view.php?id=177107 )
+Inclourà una llibreria externa Fitxers 5.0 (el codi el teniu ací: https://gitlab.com/jbellve2/fitxers )
 
 La llibreria ha d'estar pujada al repositori mymavenrepo o al repositori de llibreries gitLab (podeu escollir)
 
